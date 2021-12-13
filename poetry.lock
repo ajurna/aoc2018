@@ -6,12 +6,27 @@ category = "main"
 optional = false
 python-versions = "*"
 
+[[package]]
+name = "tabulate"
+version = "0.8.9"
+description = "Pretty-print tabular data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+widechars = ["wcwidth"]
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "55a2fcb73878934f4907fc21bf533b393e3ccd27667d882f32ff81870c3eb452"
+content-hash = "26e57d61370667c0c94efeb1b97b987a1f7bc4966b747dad449856923dc64cdd"
 
 [metadata.files]
 parse = [
     {file = "parse-1.19.0.tar.gz", hash = "sha256:9ff82852bcb65d139813e2a5197627a94966245c897796760a3a2a8eb66f020b"},
+]
+tabulate = [
+    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
+    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
 ]
